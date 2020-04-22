@@ -6,8 +6,7 @@ let h1_text3 = document.createElement("h1");
 let palla_div = document.createElement("div");
 let div_image = document.createElement("div");
 let div_pad = document.createElement("div");
-let audio = new Audio(".../../audio/audiop.mp3");
-let audio2 = new Audio(".../../audio/gravesound.mp3");
+let audio = new Audio(".../../audio/ghanaaudio.mp3");
 
 button.addEventListener("click", () => {
   div_wrapper.remove();
@@ -28,7 +27,7 @@ button.addEventListener("click", () => {
   setTimeout(() => {
     h1_text3.remove();
     div_image.remove();
-    audio2.play();
+
     palla_div.innerHTML = `<img class="img-fluid center-items" src="audio/ghanagif.gif" alt="dancing pallabearers meme" border="0" />`;
   }, 15500);
 
