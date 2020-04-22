@@ -1,0 +1,177 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.center-items {
+  width: 960px;
+  margin: auto;
+  padding-top: 2%;
+}
+
+#button {
+  position: absolute;
+  top: 40%;
+}
+
+#wrapper {
+  text-align: center;
+  margin-right: 155px;
+}
+
+#bg-body {
+  background-color: rgb(9, 0, 6);
+}
+
+.text-color {
+  color: #dc3545;
+}
+
+.span-color {
+  color: whitesmoke;
+}
+
+/* Small Phones to Small tablets 481-767*/
+@media only screen and (max-width: 767px) {
+  #button {
+    position: absolute;
+    top: 35%;
+  }
+
+  #wrapper {
+    text-align: center;
+    margin-right: 110px;
+  }
+
+  .center-items {
+    width: 960px !important;
+    margin: auto !important;
+    padding-top: 50% !important;
+  }
+}
+
+/* Small tablet to Big tablet 768-1023 */
+@media only screen and (max-width: 1023px) {
+  #button {
+    position: absolute;
+    top: 35%;
+  }
+
+  #wrapper {
+    text-align: center;
+    margin-right: 110px;
+  }
+
+  .center-items {
+    width: 960px !important;
+    margin: auto !important;
+    padding-top: 50% !important;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 50s;
+  -webkit-animation: fadeIn ease 50s;
+  -moz-animation: fadeIn ease 50s;
+  -o-animation: fadeIn ease 50s;
+  -ms-animation: fadeIn ease 50s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
