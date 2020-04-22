@@ -29,7 +29,7 @@ button.addEventListener("click", () => {
     h1_text3.remove();
     div_image.remove();
     audio2.play();
-    palla_div.innerHTML = `<img class="img-fluid center-items" src="audio/Palla.gif" alt="Palla.gif" border="0" />`;
+    palla_div.innerHTML = `<img class="img-fluid center-items" src="audio/ghanagif.gif" alt="dancing pallabearers meme" border="0" />`;
   }, 15500);
 
   palla_div.classList.add("container", "text-center");
