@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
     h1_text3.remove();
     div_image.remove();
 
-    palla_div.innerHTML = `<img class="img-fluid center-items" src="audio/ghanagif.gif" alt="dancing pallabearers meme" border="0" />`;
+    palla_div.innerHTML = `<img class="img-fluid center-items" src="https://giphy.com/gifs/jason-clarke-dancing-pallbearers-ghana-pallbearer-meme-j6ZlX8ghxNFRknObVk" alt="dancing pallabearers meme" border="0" />`;
   }, 15500);
 
   palla_div.classList.add("container", "text-center");
