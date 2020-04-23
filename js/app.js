@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
     h1_text3.remove();
     div_image.remove();
 
-    palla_div.innerHTML = `<img class="img-fluid center-items" src="https://i.giphy.com/media/j6ZlX8ghxNFRknObVk/giphy.webp" alt="dancing pallabearers meme" border="0" />`;
+    palla_div.innerHTML = `<img class="img-fluid center-items" src="https://media1.tenor.com/images/32ebf4ce9d93bce4b14dee893c26ce06/tenor.gif" alt="dancing pallabearers meme" border="0" />`;
   }, 15500);
 
   palla_div.classList.add("container", "text-center");
